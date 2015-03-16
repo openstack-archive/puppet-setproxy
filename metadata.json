@@ -1,0 +1,35 @@
+{
+  "name": "stackforge-setproxy",
+  "version": "0.0.1",
+  "author": "StackForge Contributors",
+  "summary": "Puppet module for setting proxy in services",
+  "license": "Apache License 2.0",
+  "source": "https://git.openstack.org/stackforge/puppet-setproxy.git",
+  "project_page": "https://launchpad.net/puppet-setproxy",
+  "issues_url": "https://bugs.launchpad.net/puppet-setproxy",
+  "requirements": [
+    { "name": "pe","version_requirement": "3.x" },
+    { "name": "puppet","version_requirement": "3.x" }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": ["7"]
+    },
+    {
+      "operatingsystem": "Fedora",
+      "operatingsystemrelease": ["20"]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": ["6.5","7"]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": ["12.04","14.04"]
+    }
+  ],
+  "description": "Sets proxy settings for generic services.",
+  "dependencies": [
+  ]
+}

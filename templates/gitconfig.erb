@@ -1,0 +1,17 @@
+# Managed by puppet
+
+[core]
+<% if @enable_gitproxy -%>
+        gitproxy = /usr/local/bin/gitproxy
+<% end -%>
+[http]
+<% if @http_proxy -%>
+        proxy = <%= @http_proxy %>
+<% end -%>
+[https]
+<% if @https_proxy -%>
+        proxy = <%= @https_proxy %>
+<% end -%>
+[pack]
+        compression = <%= @git_compression %>
+

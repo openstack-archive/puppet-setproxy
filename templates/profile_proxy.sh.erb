@@ -1,0 +1,11 @@
+<% if @http_proxy -%>
+export http_proxy=<%= @http_proxy %>
+export HTTP_PROXY=<%= @http_proxy %>
+<% end -%>
+<% if @https_proxy -%>
+export https_proxy=<%= @https_proxy %>
+export HTTPS_PROXY=<%= @https_proxy %>
+<% end -%>
+<% if @no_proxy -%>
+export no_proxy=<%= @no_proxy %>
+<% end -%>

@@ -1,0 +1,9 @@
+Verified+2: Jenkins
+Code-Review+2: Ricardo Carrillo Cruz <ricardo.carrillo.cruz@gmail.com>
+Code-Review+2: yolanda.robla <info@ysoft.biz>
+Workflow+1: yolanda.robla <info@ysoft.biz>
+Submitted-by: Jenkins
+Submitted-at: Fri, 27 Mar 2015 10:38:04 +0000
+Reviewed-on: https://review.openstack.org/164812
+Project: stackforge/puppet-setproxy
+Branch: refs/heads/master

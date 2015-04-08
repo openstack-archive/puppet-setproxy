@@ -35,6 +35,8 @@ class setproxy::git (
   }
 
   if $enable_gitproxy {
+    validate_string($http_proxy)
+    validate_string($https_proxy)
     file { '/usr/local/bin/gitproxy':
       ensure  => file,
       content => template('setproxy/gitproxy.erb'),

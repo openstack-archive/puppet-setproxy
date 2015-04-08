@@ -16,8 +16,8 @@
 #
 # A class to manage rubygems proxy settings
 class setproxy::gem (
-  $http_proxy   = undef,
-  $https_proxy  = undef,
+  $http_proxy,
+  $https_proxy,
 ) {
 
   file { '/etc/gemrc':

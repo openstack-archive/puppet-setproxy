@@ -1,0 +1,10 @@
+Verified+2: Jenkins
+Code-Review+2: K Jonathan Harker <code@gentlydownthe.net>
+Code-Review+1: Spencer Krum <nibz@spencerkrum.com>
+Workflow+1: Spencer Krum <nibz@spencerkrum.com>
+Code-Review+1: Gael Chamoulaud <gchamoul@redhat.com>
+Submitted-by: Jenkins
+Submitted-at: Sat, 06 Jun 2015 21:17:46 +0000
+Reviewed-on: https://review.openstack.org/171861
+Project: stackforge/puppet-setproxy
+Branch: refs/heads/master

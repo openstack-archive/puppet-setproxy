@@ -6,6 +6,10 @@ export HTTP_PROXY=<%= @http_proxy %>
 export https_proxy=<%= @https_proxy %>
 export HTTPS_PROXY=<%= @https_proxy %>
 <% end -%>
+<% if @rsync_proxy -%>
+export rsync_proxy=<%= @rsync_proxy %>
+export RSYNC_PROXY=<%= @rsync_proxy %>
+<% end -%>
 <% if @no_proxy -%>
 export no_proxy=<%= @no_proxy %>
 <% end -%>

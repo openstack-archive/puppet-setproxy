@@ -1,0 +1,8 @@
+Verified+2: Jenkins
+Code-Review+2: yolanda.robla <info@ysoft.biz>
+Workflow+1: yolanda.robla <info@ysoft.biz>
+Submitted-by: Jenkins
+Submitted-at: Tue, 21 Jul 2015 09:21:13 +0000
+Reviewed-on: https://review.openstack.org/203634
+Project: stackforge/puppet-setproxy
+Branch: refs/heads/master

@@ -18,6 +18,7 @@
 class setproxy::http (
   $http_proxy   = undef,
   $https_proxy  = undef,
+  $rsync_proxy  = undef,
   $no_proxy     = undef,
 ) {
 

@@ -15,6 +15,14 @@
 # == Class: setproxy::http
 #
 # A class to manage HTTP proxy settings
+#
+# == Parameters
+#
+#   [*http_proxy*]
+#   [*https_proxy*]
+#   [*rsync_proxy*]
+#   [*no_proxy*]
+#
 class setproxy::http (
   $http_proxy   = undef,
   $https_proxy  = undef,

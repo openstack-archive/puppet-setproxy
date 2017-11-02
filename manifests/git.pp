@@ -15,6 +15,15 @@
 # == Class: setproxy::git
 #
 # A class to manage Git proxy settings
+#
+# == Parameters
+#
+#   [*http_proxy*]
+#   [*https_proxy*]
+#   [*proxy_port*]
+#   [*enable_gitproxy*]
+#   [*git_compression*]
+#
 class setproxy::git (
   $http_proxy  = undef,
   $https_proxy = undef,

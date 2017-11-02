@@ -15,6 +15,12 @@
 # == Class: setproxy::gem
 #
 # A class to manage rubygems proxy settings
+#
+# == Parameters
+#
+#   [*http_proxy*]
+#   [*https_proxy*]
+#
 class setproxy::gem (
   $http_proxy,
   $https_proxy,

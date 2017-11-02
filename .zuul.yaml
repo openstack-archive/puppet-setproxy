@@ -1,0 +1,4 @@
+- project:
+    name: openstack/puppet-setproxy
+    templates:
+      - puppet-openstack-check-jobs

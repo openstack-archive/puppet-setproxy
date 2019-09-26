@@ -1,5 +1,3 @@
-# Generic Set proxy Module
+# This repo has moved to OpenDev
 
-## Overview
-
-Sets proxy settings for generic services.
+It can now be found at [https://opendev.org/x/puppet-setproxy](https://opendev.org/x/puppet-setproxy)
